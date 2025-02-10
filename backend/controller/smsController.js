@@ -1,7 +1,4 @@
 import twilio from 'twilio';
-//const twilio = require("twilio");
-
-
 const client = twilio(accountSid, authToken);
 
 async function sendSms(req, res) {
